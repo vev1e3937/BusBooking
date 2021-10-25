@@ -37,8 +37,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_gravity="center"/>
-<!--                    android:src="@drawable/user" />-->
+                    android:layout_gravity="center"
+                    android:src="@drawable/user" />
 
                 <EditText
                     android:id="@+id/Edt_Username"
@@ -68,8 +68,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_gravity="center"/>
-<!--                    android:src="@drawable/password" />-->
+                    android:layout_gravity="center"
+                    android:src="@drawable/password" />
 
                 <EditText
                     android:id="@+id/Edt_Password"
@@ -99,8 +99,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_gravity="center"/>
-<!--                    android:src="@drawable/email" />-->
+                    android:layout_gravity="center"
+                    android:src="@drawable/email" />
 
                 <EditText
                     android:id="@+id/Edt_Email"
@@ -130,8 +130,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_gravity="center"/>
-<!--                    android:src="@drawable/user" />-->
+                    android:layout_gravity="center"
+                    android:src="@drawable/user" />
 
                 <EditText
                     android:id="@+id/Edt_Firstname"
@@ -161,8 +161,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_gravity="center"/>
-<!--                    android:src="@drawable/user" />-->
+                    android:layout_gravity="center"
+                    android:src="@drawable/user" />
 
                 <EditText
                     android:id="@+id/Edt_Lastname"
@@ -194,8 +194,8 @@
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="20dp"
-                    android:layout_gravity="center"/>
-<!--                    android:src="@drawable/mobile" />-->
+                    android:layout_gravity="center"
+                    android:src="@drawable/mobile" />
 
                 <EditText
                     android:id="@+id/Edt_Telephone"

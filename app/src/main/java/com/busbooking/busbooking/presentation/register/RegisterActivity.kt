@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.Toast
 import com.busbooking.busbooking.UI.BaseActivity
 import com.busbooking.busbooking.R
-import com.busbooking.busbooking.presentation.MainActivity
+import com.busbooking.busbooking.presentation.main.MainActivity
 import com.busbooking.busbooking.request.RegisterReq
 import kotlinx.android.synthetic.main.activity_register.*
 

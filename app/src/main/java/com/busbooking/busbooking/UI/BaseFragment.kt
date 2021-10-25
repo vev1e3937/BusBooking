@@ -2,14 +2,16 @@ package com.busbooking.busbooking.UI
 
 import android.os.Bundle
 import android.os.StrictMode
-import androidx.appcompat.app.AppCompatActivity
-import com.busbooking.busbooking.data.datasource.DataSource
+import androidx.annotation.LayoutRes
+import androidx.fragment.app.Fragment
 import com.busbooking.busbooking.data.datasource.DataSourceImpl
 import org.jetbrains.exposed.sql.Database
+import javax.sql.DataSource
 
-abstract class BaseActivity: AppCompatActivity() {
-    val dataSource: DataSource =
-        DataSourceImpl
+abstract class BaseFragment(@LayoutRes layout: Int) : Fragment(layout) {
+
+    val dataSource: DataSourceImpl = DataSourceImpl
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         StrictMode.setThreadPolicy(StrictMode.ThreadPolicy.Builder().permitAll().build())
@@ -23,4 +25,5 @@ abstract class BaseActivity: AppCompatActivity() {
             password = "1234"
         )
     }
+
 }
